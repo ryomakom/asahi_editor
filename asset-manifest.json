@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/asahi_editor/static/css/main.24e835c0.css",
+    "main.js": "/asahi_editor/static/js/main.7e98772e.js",
+    "static/js/787.52ebaa4f.chunk.js": "/asahi_editor/static/js/787.52ebaa4f.chunk.js",
+    "index.html": "/asahi_editor/index.html",
+    "main.24e835c0.css.map": "/asahi_editor/static/css/main.24e835c0.css.map",
+    "main.7e98772e.js.map": "/asahi_editor/static/js/main.7e98772e.js.map",
+    "787.52ebaa4f.chunk.js.map": "/asahi_editor/static/js/787.52ebaa4f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24e835c0.css",
+    "static/js/main.7e98772e.js"
+  ]
+}
