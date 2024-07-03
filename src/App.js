@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   const [input, setInput] = useState('');
-  const [charsPerLine, setCharsPerLine] = useState(12);
+  const [charsPerLine, setCharsPerLine] = useState(11);
   const [formattedLines, setFormattedLines] = useState([]);
   const [firstCharCount, setFirstCharCount] = useState(0);
   const [compressionMode, setCompressionMode] = useState(false);
