@@ -96,14 +96,14 @@ function App() {
     圧縮モード {compressionMode ? 'オン' : 'オフ'}
   </button>
   <span className="compressionModeNote">オンにすると、句読点やカッコなどを0.5文字分として扱い、行数を最小にできます</span>
-  <label>
+    <label>
     1行当たりの文字数:
-    <select value={charsPerLine} onChange={(e) => setCharsPerLine(Number(e.target.value))}>
+    <select value={charsPerLine || 11} onChange={(e) => setCharsPerLine(Number(e.target.value))}>
       {[...Array(21).keys()].slice(5).map((n) => (
         <option key={n} value={n}>{n}</option>
-      ))}
-    </select>
-  </label>
+       ))}
+     </select>
+    </label>
 </div>
 
       <div className="editor">
